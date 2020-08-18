@@ -1,0 +1,64 @@
+{
+	"name": "WeReadForVSCodeJackieZheng",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Microsoft/WeReadForVSCode.git"
+	},
+	"displayName": "WeReadForVSCode",
+	"description": "",
+	"version": "0.0.3",
+	"author": {
+		"name": "JackieZheng"
+	},
+	"publisher": "JackieZheng",
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"icon": "Images/iconBlack.png",
+	"activationEvents": [
+		"onCommand:WeReadForVSCodeJackieZheng.Start"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [{
+			"command": "WeReadForVSCodeJackieZheng.Start",
+			"title": "Start",
+			"category": "WeRead",
+			"icon": {
+				"light": "Images/iconBlack.svg",
+				"dark": "Images/iconDark.svg"
+			}
+		}],
+		"keybindings": [{
+			"command": "WeReadForVSCodeJackieZheng.Start",
+			"key": "ctrl+f3",
+			"mac": "cmd+f3"
+		}]
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"bugs": {
+		"url": "https://github.com/Microsoft/WeReadForVSCode/issues",
+		"email": "zhengxinzhe@jackyzheng.uu.me"
+	},
+	"homepage": "https://github.com/Microsoft/WeReadForVSCode/master/README.md",
+
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.48.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^14.0.27",
+		"eslint": "^7.6.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.0.1",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.4.0"
+	}
+}
