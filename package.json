@@ -2,7 +2,7 @@
 	"name": "WeReadForVSCodeJackieZheng",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/WeReadForVSCode.git"
+		"url": "https://github.com/JackieZheng/WeReadForVSCode.git"
 	},
 	"displayName": "WeReadForVSCode",
 	"description": "",
@@ -40,10 +40,10 @@
 	},
 	"license": "SEE LICENSE IN LICENSE.md",
 	"bugs": {
-		"url": "https://github.com/Microsoft/WeReadForVSCode/issues",
+		"url": "https://github.com/JackieZheng/WeReadForVSCode/issues",
 		"email": "zhengxinzhe@jackyzheng.uu.me"
 	},
-	"homepage": "https://github.com/Microsoft/WeReadForVSCode/master/README.md",
+	"homepage": "https://github.com/JackieZheng/WeReadForVSCode/master/README.md",
 
 	"scripts": {
 		"lint": "eslint .",
