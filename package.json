@@ -5,8 +5,8 @@
 		"url": "https://github.com/JackieZheng/WeReadForVSCode.git"
 	},
 	"displayName": "WeReadForVSCode",
-	"description": "",
-	"version": "0.0.4",
+	"description": "WeRead for VSCode 微信读书 VSCode 插件",
+	"version": "0.0.5",
 	"author": {
 		"name": "JackieZheng"
 	},
@@ -15,7 +15,10 @@
 		"vscode": "^1.48.0"
 	},
 	"categories": [
-		"Other"
+		"Other", "Keymaps", "Language Packs", "Extension Packs"
+	],
+	"tags": [
+		"webView", "weread", "view in browser"
 	],
 	"icon": "Images/iconBlack.png",
 	"activationEvents": [
