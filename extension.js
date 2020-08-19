@@ -2,7 +2,7 @@
 /*
  * @Author: your name
  * @Date: 2020-08-18 10:07:57
- * @LastEditTime: 2020-08-18 11:29:03
+ * @LastEditTime: 2020-08-19 15:04:34
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \WeReadForVSCode\WeReadForVSCodeJackieZheng\extension.js
@@ -50,7 +50,15 @@ function activate(context) {
 			}
 
 		);
-		//panel.webview.asWebviewUri = vscode.Uri('https://weread.qq.com/');
+		//设置标题前图标
+
+		//panel.iconPath = vscode.Uri.file(context.extensionPath + '/Images/iconDark.png');
+
+		panel.iconPath = {
+			dark: vscode.Uri.file(context.extensionPath + '/Images/iconDark.png'),
+			light: vscode.Uri.file(context.extensionPath + '/Images/iconBlack.png')
+		};
+
 		panel.webview.html = `<!DOCTYPE html>
 								<html lang="en">
 								<head>
