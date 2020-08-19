@@ -6,7 +6,7 @@
 	},
 	"displayName": "WeReadForVSCode",
 	"description": "WeRead for VSCode 微信读书 VSCode 插件",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"author": {
 		"name": "JackieZheng"
 	},
@@ -17,9 +17,7 @@
 	"categories": [
 		"Other", "Keymaps", "Language Packs", "Extension Packs"
 	],
-	"tags": [
-		"webView", "weread", "view in browser"
-	],
+	"keywords": ["vscode", "plugin", "webView", "weread", "view in browser"],
 	"icon": "Images/iconBlack.png",
 	"activationEvents": [
 		"onCommand:WeReadForVSCodeJackieZheng.Start"
