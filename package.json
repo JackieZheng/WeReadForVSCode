@@ -6,7 +6,7 @@
 	},
 	"displayName": "WeReadForVSCode",
 	"description": "WeRead for VSCode 微信读书 VSCode 插件",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"author": {
 		"name": "JackieZheng"
 	},
@@ -44,7 +44,7 @@
 		"url": "https://github.com/JackieZheng/WeReadForVSCode/issues",
 		"email": "zhengxinzhe@jackyzheng.uu.me"
 	},
-	"homepage": "https://github.com/JackieZheng/WeReadForVSCode/master/README.md",
+	"homepage": "https://github.com/JackieZheng/WeReadForVSCode/blob/master/README.md",
 
 	"scripts": {
 		"lint": "eslint .",
