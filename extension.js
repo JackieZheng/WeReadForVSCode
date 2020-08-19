@@ -2,7 +2,7 @@
 /*
  * @Author: your name
  * @Date: 2020-08-18 10:07:57
- * @LastEditTime: 2020-08-19 15:04:34
+ * @LastEditTime: 2020-08-19 16:08:01
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \WeReadForVSCode\WeReadForVSCodeJackieZheng\extension.js
@@ -84,8 +84,6 @@ function activate(context) {
 									<iframe src="https://weread.qq.com/"/>
 								</body>
 								</html>`;
-		//panel.webview.url = 'https://weread.qq.com/';
-
 	});
 
 	context.subscriptions.push(disposable);
