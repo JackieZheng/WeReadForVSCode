@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-08-18 10:07:57
- * @LastEditTime: 2020-08-19 15:25:59
+ * @LastEditTime: 2020-08-19 15:44:29
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \WeReadForVSCodeJackieZheng\CHANGELOG.md
@@ -13,7 +13,7 @@ All notable changes to the "WeReadForVSCodeJackieZheng" extension will be docume
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.0.9] - 2020-08-16
+## [0.1.0] - 2020-08-16
 
 ### Added
 
